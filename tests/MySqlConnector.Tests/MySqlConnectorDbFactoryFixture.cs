@@ -7,6 +7,6 @@ namespace MySqlConnector.Tests
 	public class MySqlConnectorDbFactoryFixture : IDbFactoryFixture
 	{
 		public DbProviderFactory Factory => MySqlClientFactory.Instance;
-		public string ConnectionString => "Server=localhost;User Id=root;Password=test;SSL Mode=none;Database=mysqlconnector";
+		public string ConnectionString => "Server=localhost;User Id=roji;Password=Abcd5678;SSL Mode=none;Database=mysqlconnector";
 	}
 }

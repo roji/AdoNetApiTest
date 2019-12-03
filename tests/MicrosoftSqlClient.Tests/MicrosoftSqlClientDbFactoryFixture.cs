@@ -7,6 +7,6 @@ namespace MicrosoftSqlClient.Tests
 	public class MicrosoftSqlClientDbFactoryFixture : IDbFactoryFixture
 	{
 		public DbProviderFactory Factory => SqlClientFactory.Instance;
-		public string ConnectionString => "data source=localhost;user id=sa;password=P@ssw0rd;initial catalog=mssqlclient";
+		public string ConnectionString => "data source=localhost;user id=sa;password=Abcd5678;initial catalog=mssqlclient";
 	}
 }
